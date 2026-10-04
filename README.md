@@ -1,9 +1,11 @@
 # Silent, Not Defeated
 
-Website for *Silent, Not Defeated*, a memoir by Dermot Kelly. A static site hosted on GitHub Pages.
+Website for *Silent, Not Defeated*, a memoir by Dermot Kelly.
 
-Until the book is released the site sits behind a password. `index.html` is a small gate page holding an encrypted copy of the real site, which is decrypted in the browser once the password is entered. The unencrypted source is kept out of this repository until launch.
+A static one-page site: `index.html`, the photographs in `assets/`, and nothing else. No build step and no dependencies — open `index.html` in a browser to work on it. Hosted on GitHub Pages at [silentnotdefeated.com](https://silentnotdefeated.com/).
 
-To rebuild the gate after editing the source:
+Two layouts live in the one file: the desktop layout is shown above 900px wide and the mobile layout below, switched by a single media query.
 
-    powershell -ExecutionPolicy Bypass -File protect.ps1 -Password "your password"
+Typefaces are Libre Franklin, EB Garamond, Bodoni Moda and Archivo, loaded from Google Fonts. Palette: `#F3F0E9` paper, `#15161A` ink, `#6E2A24` accent, `#C9C3B6` rules.
+
+Viaduct photograph: "Drogheda Rowing Club Double Scull under the Viaduct" by ptmulroy, via Wikimedia Commons, licensed [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
